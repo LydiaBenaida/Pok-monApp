@@ -13,7 +13,13 @@ import { PokemonEditComponent } from './pokemon-edit/pokemon-edit.component';
 
 @NgModule({
   declarations: [
-    ListPokemonComponent, BordCardDirective, PokemonTypeColorPipe, DetailPokemonComponent, PageNotFoundComponent,PokemonFormComponent, PokemonEditComponent
+    ListPokemonComponent,
+    BordCardDirective,
+    PokemonTypeColorPipe,
+    DetailPokemonComponent,
+    PageNotFoundComponent,
+    PokemonFormComponent,
+    PokemonEditComponent
 
   ],
   imports: [
