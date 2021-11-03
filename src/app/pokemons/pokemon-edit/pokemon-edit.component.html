@@ -1,0 +1,7 @@
+<h2 class="header center">Editer {{singlePkemon.name}}</h2>
+<p class="center">
+  <img *ngIf="singlePkemon" [src]="singlePkemon.picture">
+</p>
+<app-pokemon-form [pokemon]="singlePkemon" >
+
+</app-pokemon-form>
