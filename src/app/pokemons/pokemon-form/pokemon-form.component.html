@@ -32,7 +32,7 @@
                  [(ngModel)]="pokemon.hp" name="hp"
                  #hp="ngModel">
           <div [hidden]="hp.valid || hp.pristine" class="card-panel red accent-1">
-            Le nom du pokémon est requis (1-25)
+            Les points de vie du pokémon sont compris entre 0 et 999
           </div>
         </div>
 
@@ -45,7 +45,7 @@
                  [(ngModel)]="pokemon.cp" name="cp"
                  #cp="ngModel">
           <div [hidden]="cp.valid || cp.pristine" class="card-panel red accent-1">
-            Le nom du pokémon est requis (1-25)
+            Les dégats du pokémon sont compris entre 0 et 99
           </div>
 
         </div>
